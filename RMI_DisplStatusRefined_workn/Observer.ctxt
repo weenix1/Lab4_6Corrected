@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Observer
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Observer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=o\ arg
+comment1.target=void\ update(IObservable,\ java.lang.Object)
+comment1.text=\ \r\n\ This\ method\ is\ called\ whenever\ the\ observed\ object\ is\ changed.\ An\ \r\n\ application\ calls\ an\ {@code\ Observable}\ object's\ \r\n\ {@code\ notifyObservers}\ method\ to\ have\ all\ the\ object's\ \r\n\ observers\ notified\ of\ the\ change.\ \r\n\ \r\n\ @param\ \ \ o\ \ \ \ \ the\ observable\ object.\ \r\n\ @param\ \ \ arg\ \ \ an\ argument\ passed\ to\ the\ {@code\ notifyObservers}\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ method.\ \r\n
+numComments=2

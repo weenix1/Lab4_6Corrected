@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=JobCompleted
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Jobcompleted\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=JobCompleted()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Jobcompleted\r\n
+comment2.params=
+comment2.target=boolean\ getJobCompleted()
+comment3.params=JobCompleted
+comment3.target=void\ update(java.lang.Object)
+comment4.params=JobCompleted
+comment4.target=void\ setJobCompleted(java.lang.String)
+comment5.params=
+comment5.target=boolean\ saveJobCompleted()
+numComments=6

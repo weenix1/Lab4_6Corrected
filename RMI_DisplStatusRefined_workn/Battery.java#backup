@@ -1,0 +1,45 @@
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
+/**
+ * Write a description of class Battery here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Battery extends Checker 
+{
+    // instance variables - replace the example below with your own
+    private int batteryLevel;
+    private int duration;
+    private ArrayList<Observer> observes;
+    /**
+     * Constructor for objects of class Battery
+     */
+    public Battery(int batteryLevel, int duration)
+    {
+        // initialise instance variables
+        this.batteryLevel = batteryLevel;
+        this.duration = duration;
+    }
+
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public int getState()
+    {
+        // put your code here
+        return batteryLevel;
+    }
+    
+    public int getDuration(){
+       System.out.println("");
+       return duration; 
+    }
+    
+    
+}
